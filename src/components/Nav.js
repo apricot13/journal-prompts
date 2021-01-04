@@ -9,11 +9,17 @@ const DivUl = styled.ul`
   display: flex;
   flex-direction: row;
   justify-content: center;
+  
+   @media (max-width: 768px) {
+      display: inline-block;
+      text-align: center;
+    }
 `;
 
 
 const DivLi = styled.li`
   padding: 0 10px;
+   display: block;
 `;
 
 
