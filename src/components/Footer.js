@@ -16,7 +16,7 @@ const DivFooter = styled.div`
 
 const Footer = props => (
   <DivFooter>
-    <p>Powered by guinea pigs</p>
+    <p>Powered by guinea pigs. <a href="#top">Back to top</a></p>
   </DivFooter>
 );
 
