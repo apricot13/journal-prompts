@@ -1,8 +1,7 @@
 import React from "react";
-import { Link } from "react-router-dom"; 
 import styled from 'styled-components';
 
-const DivHeader = styled.div`
+const DivFooter = styled.div`
     text-align: center;
 
     @media (max-width: 768px) {
@@ -15,12 +14,10 @@ const DivHeader = styled.div`
 //     color: red;
 // `;
 
-const Header = props => (
-  <DivHeader>
-    <h1>
-    <Link to="/">Journal Prompts</Link>
-    </h1>
-  </DivHeader>
+const Footer = props => (
+  <DivFooter>
+    <p>Powered by guinea pigs</p>
+  </DivFooter>
 );
 
-export default Header;
+export default Footer;
