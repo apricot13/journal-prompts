@@ -13,6 +13,7 @@ const DivUl = styled.ul`
    @media (max-width: 768px) {
       display: inline-block;
       text-align: center;
+       width: 100%
     }
 `;
 
@@ -20,6 +21,8 @@ const DivUl = styled.ul`
 const DivLi = styled.li`
   padding: 0 10px;
    display: block;
+   
+   
 `;
 
 
