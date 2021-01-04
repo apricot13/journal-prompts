@@ -11,7 +11,8 @@ const DivUl = styled.ul`
   justify-content: center;
   
    @media (max-width: 768px) {
-      
+      display: inline-block;
+      text-align: center;
        width: 100%
     }
 `;
