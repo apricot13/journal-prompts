@@ -18,6 +18,7 @@ Who made you feel good this week?
 <br />What did you accomplish?
 <br />What went wrong?
 <br />What went right?
+<br />Represent each day of your week with a colour. Draw it in a cirle a square whichever shape you're feeling for that day.
     </p>
 
     <p>
