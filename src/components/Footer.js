@@ -1,23 +1,12 @@
 import React from "react";
-import styled from 'styled-components';
 
-const DivFooter = styled.div`
-    text-align: center;
+import * as Styles from './Footer.styles.js';
 
-    @media (max-width: 768px) {
-      font-size: .9rem;
-    }
-
-`;
-
-// const H1Link  = styled(Link)`
-//     color: red;
-// `;
 
 const Footer = props => (
-  <DivFooter>
+  <Styles.Container>
     <p>Powered by guinea pigs. <a href="#top">Back to top</a></p>
-  </DivFooter>
+  </Styles.Container>
 );
 
 export default Footer;

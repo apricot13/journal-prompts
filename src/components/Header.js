@@ -1,26 +1,12 @@
 import React from "react";
-import { Link } from "react-router-dom"; 
-import styled from 'styled-components';
+import * as Styles from './Header.styles.js';
+import { Link } from "react-router-dom";
 
-const DivHeader = styled.div`
-    text-align: center;
-
-    @media (max-width: 768px) {
-      font-size: .9rem;
-    }
-
-`;
-
-// const H1Link  = styled(Link)`
-//     color: red;
-// `;
 
 const Header = props => (
-  <DivHeader>
-    <h1>
-    <Link to="/">Journal Prompts</Link>
-    </h1>
-  </DivHeader>
+  <Styles.Container>
+    <Styles.Logo><Link to="/">JournalPrompts</Link></Styles.Logo>
+  </Styles.Container>
 );
 
 export default Header;

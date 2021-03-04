@@ -10,19 +10,19 @@ const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
-    background-color: #f1f1f1;
-    color: #2e2922;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    background-color: #F3E8E4;
+    color: #5B5652;
   }
 
 
   a {
-    color: #10752a;
-    text-decoration: none;
+    color: #3C3F3B;
+    text-decoration: underline;
   }
 
   a:hover {
-    color: #0a471a;
+    color: #B29984;
   }
 
 
