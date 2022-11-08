@@ -347,7 +347,8 @@ const data = [
 { text: "1. What do I need to know?", type: "morning-pages" },
 { text: "2. What do I need to try?", type: "morning-pages" },
 { text: "3. What do I need to accept?", type: "morning-pages" },
-{ text: "4. What do I need to do?", type: "morning-pages" }
+{ text: "4. What do I need to do?", type: "morning-pages" },
+{ text: "What should I do next?", type: "morning-pages" }
 
 ];
 
